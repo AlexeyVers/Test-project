@@ -293,6 +293,12 @@
     display: none;
 }
 
+@media (min-width: 1200px) {
+    .main-nav--closed {
+        display: block;
+    }
+}
+
 .main-nav--opened {
     display: block;
 }
